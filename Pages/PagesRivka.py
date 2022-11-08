@@ -40,6 +40,7 @@ class OrdersPage(OrdersElement):
         self.driver.find_element(By.XPATH,self.click_txt_box).click()
         sleep(2)
 
+
     def search_correct_pyment_type(self,pym):
         self.driver.find_element(By.XPATH,self.search_txt_box).send_keys(pym)
         sleep(5)

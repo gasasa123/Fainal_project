@@ -81,7 +81,6 @@ class Test_Orders(Base):
         assert name == "מציג\nלעמוד"
         a.validtion("מציג\nלעמוד", OrdersElement.no_result,"5")
 
-
     def test_switch_page(self):
         driver = self.driver
         a = Utils(driver)
